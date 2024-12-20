@@ -10,7 +10,7 @@ body {
   background: #000;
   margin: 0 auto;
   display: block;
-  max-width: 70%;
+  max-width: 150%;
 }
 
 .container {
@@ -32,8 +32,7 @@ body {
 }
 
 .logo {
-  display: block;
-  margin: 0 auto;
+  position: relative;
   font-size: 100%;
   color: #ededed;
   text-decoration: none;
