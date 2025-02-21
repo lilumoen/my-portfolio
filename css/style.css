@@ -384,7 +384,30 @@ h5 {
     padding-left: 1%;
     max-width: max-content;
   }
+  .about-me-page {
+    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(18, 18, 18, 0.5)),
+      url(/css/home.jpg) no-repeat;
+    background-size: cover;
+    background-size: 200px;
+    background-position: right;
+  }
+  .about-me-title {
+    margin-top: 170px;
+  }
+  .about-me-text {
+    font-size: 10px;
+    padding: 25px;
+  }
   .header {
     padding-left: 0%;
   }
+}
+
+.about-me-page {
+  background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(18, 18, 18, 0.5)),
+    url(/css/home.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-size: 800px;
+  background-color: var(---background-color);
 }
