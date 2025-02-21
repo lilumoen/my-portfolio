@@ -382,7 +382,26 @@ h5 {
     display: flex;
     margin-left: 0 auto;
     padding-left: 1%;
-    max-width: max-content;
+    max-width: 600px;
+  }
+  .home-content {
+    max-width: 600px;
+  }
+  .home h1 {
+    font-size: 30px;
+  }
+  .btn-box {
+    max-width: 70%;
+    justify-content: space-around;
+    padding: 2px;
+  }
+
+  .lets-talk {
+    margin-left: 10px;
+  }
+  .home h3,
+  p {
+    font-size: 15px;
   }
   .about-me-page {
     background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(18, 18, 18, 0.5)),
@@ -395,11 +414,14 @@ h5 {
     margin-top: 170px;
   }
   .about-me-text {
-    font-size: 10px;
+    font-size: 13px;
     padding: 25px;
   }
   .header {
     padding-left: 0%;
+  }
+  .portfolio-text {
+    font-size: 13px;
   }
 }
 
