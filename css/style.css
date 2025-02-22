@@ -343,10 +343,9 @@ h5 {
 }
 
 .container-fluid {
-  margin-top: 250px;
   justify-content: space-evenly;
   display: block;
-  margin: 200px auto;
+  margin: 150px auto;
 }
 
 .link-button {
