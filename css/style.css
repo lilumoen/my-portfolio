@@ -215,9 +215,9 @@ body {
 .home-sci {
   position: absolute;
   bottom: 40px;
-  width: 170px;
+  width: 180px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .home-sci::before {
@@ -323,7 +323,7 @@ h5 {
 }
 
 .about-me-title {
-  margin-top: 250px;
+  margin-top: 190px;
 }
 .about-me-text {
   display: block;
@@ -339,6 +339,7 @@ h5 {
   display: block;
   color: var(---main-color);
   padding: 5px;
+  margin-bottom: 10px;
 }
 
 .container-fluid {
@@ -404,18 +405,18 @@ h5 {
     font-size: 15px;
   }
   .about-me-page {
-    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(18, 18, 18, 0.5)),
+    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(0, 0, 0, 0.784)),
       url(/css/home.jpg) no-repeat;
     background-size: cover;
     background-size: 200px;
     background-position: right;
   }
   .about-me-title {
-    margin-top: 170px;
+    margin-top: 150px;
   }
   .about-me-text {
     font-size: 13px;
-    padding: 25px;
+    padding: 1px 25px;
   }
   .header {
     padding-left: 0%;
@@ -425,6 +426,12 @@ h5 {
   }
   .contact-me {
     font-size: 17px;
+  }
+  .email-address {
+    margin-bottom: 50px;
+  }
+  .navbar {
+    width: 400px;
   }
 }
 
