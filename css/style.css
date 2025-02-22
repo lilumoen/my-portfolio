@@ -189,7 +189,7 @@ body {
 }
 
 .btn-box a:nth-child(2):hover {
-  color: var(---background-color);
+  color: var(---background-color-2);
 }
 
 .btn-box a:nth-child(2)::before {
@@ -203,7 +203,7 @@ body {
   left: 0;
   width: 0%;
   height: 100%;
-  background: var(---background-color);
+  background: var(---background-color-2);
   z-index: -1;
   transition: 0.5s;
 }
@@ -440,5 +440,5 @@ h5 {
   background-size: cover;
   background-position: right;
   background-size: 800px;
-  background-color: var(---background-color);
+  background-color: var(---background-color-2);
 }
