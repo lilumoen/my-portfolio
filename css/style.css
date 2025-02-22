@@ -436,4 +436,21 @@ h5 {
     font-size: 13px;
   }
   .contact-me {
-    font-s
+    font-size: 17px;
+  }
+  .email-address {
+    margin-bottom: 50px;
+  }
+  .navbar {
+    width: 400px;
+  }
+}
+
+.about-me-page {
+  background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(18, 18, 18, 0.5)),
+    url(/css/home.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-size: 800px;
+  background-color: var(---background-color-2);
+}
