@@ -82,7 +82,12 @@ body {
   align-items: center;
   padding: 0 10%;
 }
-
+.portfolio {
+  background: url(/images/dark.jpg);
+  background-repeat: round;
+  background-position: left;
+  background-size: cover;
+}
 .home-content {
   max-width: 600px;
 }
@@ -300,6 +305,14 @@ body {
   animation: showRight 1s ease forwards;
   animation-delay: 1s;
   z-index: 100;
+}
+.contact-title {
+  margin-top: 150px;
+}
+.contact-body {
+  background: url(/images/dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*KEYFRAMES ANIMATION*/
